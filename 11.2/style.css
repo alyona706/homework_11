@@ -1,0 +1,33 @@
+.wrapper {
+    width: 60%;
+    margin: 20px auto;
+}
+
+button {
+    background-color: lightskyblue;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0, 0.5);
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow .1s ease-in;
+}
+
+button:hover {
+    box-shadow:none;
+}
+
+button.green {
+    background-color: lightgreen;
+}
+
+.contentList {
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.styled {
+    background-color: lightblue;
+}
