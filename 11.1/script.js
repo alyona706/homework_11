@@ -30,13 +30,13 @@ function showCurrentValue(event) {
         if(item.classList.contains('green')) {
             item.classList.remove('green');
         }
-    })
+    });
 
-    if(!currentValue.classList.contains('headerFirst') || !currentValue.classList.contains('headerSecond')) {
-        event.target.classList.add('green');
+    if(!currentValue.classList.contains('headerFirst') && !currentValue.classList.contains('headerSecond')) {
+        currentValue.classList.add('green');
 
-        let firstVal = event.target.attributes['data-first'].value;
-        let secondVal = event.target.attributes['data-second'].value;
+        let firstVal = currentValue.attributes['data-first'].value;
+        let secondVal = currentValue.attributes['data-second'].value;
 
         let headerFirstValue = document.querySelectorAll('.headerFirst');
         let headerSecondValue = document.querySelectorAll('.headerSecond');

@@ -16,11 +16,12 @@
     cursor: pointer;
 }
 
-.cell.green {
-    background-color: lightgreen;
-}
-
 .cell.headerFirst,
 .cell.headerSecond {
     cursor: default;
+    background-color: lightgray;
+}
+
+.cell.green {
+    background-color: lightgreen;
 }
