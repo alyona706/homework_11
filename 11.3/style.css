@@ -1,0 +1,26 @@
+.wrapper {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    background-color: lightskyblue;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 4px rgba(0,0,0, 0.5);
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow .1s ease-in;
+    margin: 0 0 10px;
+}
+
+button:hover {
+    box-shadow:none;
+}
+
+#imgWrapper img {
+    width: 100%;
+    height: auto;
+}
